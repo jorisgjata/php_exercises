@@ -1,8 +1,11 @@
-index.php
-
-$ php -a
-php > true;
-php > 42;
-php > 3.42
-php > "hi";
+<html>
+<head>
+<title>Example 1</title>
+</head>
+<body>
+<h1>My Website</h1>
+<p><?php $name = "Joris Gjata"; echo "Hi $name";?>
+</p>
+</body>
+</html>
 
